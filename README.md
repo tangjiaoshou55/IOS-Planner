@@ -67,7 +67,7 @@ IOS-Planner/
     4. deadline: Date，任务截止日期。
     5. theme: Color，任务主题颜色，简单版，直接调用Color颜色而不是创建一个新的Theme的枚举 enum。
     6. progress: Double，进度条的值为0.0到1.0之间的浮点数。 
-    -  sample data:
+    -  sample data（直接用，内部数据可以改，sampleData名字别改）:
     ```swift
     extension DailyTask {
         static var sampleData: [DailyTask] {
