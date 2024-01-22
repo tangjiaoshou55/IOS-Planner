@@ -30,6 +30,8 @@ struct DetailView: View {
                 .foregroundColor(task.theme)
         }
         .padding()
+        .background(task.theme.opacity(0.2))
+
     }
 }
 

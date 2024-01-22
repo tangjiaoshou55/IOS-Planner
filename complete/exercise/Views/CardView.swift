@@ -16,7 +16,7 @@ struct CardView: View {
                 .font(.headline)
                 .padding(.bottom, 2)
             Text(task.description)
-                .font(.subheadline)
+                .font(.body)
             Spacer()
             HStack {
                 Text(task.dueDate, style: .date)
@@ -32,7 +32,6 @@ struct CardView: View {
 }
 
 var task = DailyTask.sampleData[0]
-
 
 #Preview {
     CardView(task: DailyTask.sampleData[0])
